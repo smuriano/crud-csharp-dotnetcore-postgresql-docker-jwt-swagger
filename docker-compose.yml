@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root2020!
+    ports:
+      - 5432:5432
+    volumes:
+      - /c/PostgreSQL/db:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  adminer:
+    image: adminer
+    restart: always
+    environment:
+      ADMINER_DEFAULT_DB_DRIVER: pgsql
+      ADMINER_DEFAULT_DB_HOST: postgres
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+
+networks: 
+    app-network:
+      driver: bridge
