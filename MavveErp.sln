@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8145E23C-36BD-4627-AA0C-960C144147E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MavveErp.Api", "src\MavveErp.Api\MavveErp.Api.csproj", "{912E8609-E636-47E9-A980-F90B241CA9FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68763B2A-F737-4AA7-B8D9-7865040EC7CB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|x64.Build.0 = Release|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{912E8609-E636-47E9-A980-F90B241CA9FF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{912E8609-E636-47E9-A980-F90B241CA9FF} = {8145E23C-36BD-4627-AA0C-960C144147E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B753173E-2896-4E1F-8C66-0D577769C92F}
+	EndGlobalSection
+EndGlobal
